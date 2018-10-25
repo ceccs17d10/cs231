@@ -6,9 +6,9 @@ void pop(void);
 void display(void);
 int main()
 {
-    top=-1;
+		  top=-1;
     printf("Enter the size of stack:");
-    scanf("%d",&n);
+	   scanf("%d",&n);
     printf("\n\t 1.PUSH\n\t 2.POP\n\t 3.DISPLAY\n\t 4.EXIT");
     do
     {
@@ -50,7 +50,7 @@ void push()
 {
     if(top>=n-1)
     {
-        printf("\n\tSTACK is over flow");
+        printf("\n\tStackis over flow");
          
     }
     else
@@ -77,14 +77,14 @@ void display()
 {
     if(top>=0)
     {
-        printf("\n The elements in STACK \n");
+        printf("\n The elements in stack \n");
         for(i=top; i>=0; i--)
             printf("\n%d",stack[i]);
         printf("\n Press Next Choice");
     }
     else
     {
-        printf("\n The STACK is empty");
+        printf("\n The stack is empty");
     }
     
 }
