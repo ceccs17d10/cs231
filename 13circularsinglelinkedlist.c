@@ -12,7 +12,7 @@ void main()
     int key,x,cho,flag;
     struct node *head,*temp,*ptr,*ptr1;
     head=(struct node*)malloc(sizeof(struct node));
-    head->data=NULL;
+    head->data=0;
     head->link=head;
 
     do
