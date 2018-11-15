@@ -1,3 +1,8 @@
+/* Roll no 10
+* ANUROSE K THOMAS
+*PRG NO 05
+*Merge sort: non-recursive 
+*/
 #include<stdio.h>
 #define max 25
 int main()
