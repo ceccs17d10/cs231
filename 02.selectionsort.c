@@ -1,3 +1,10 @@
+/* Roll no 10
+* ANUROSE K THOMAS
+*PRG NO 02
+*Selection sort 
+*/
+ 
+
 #include<stdio.h>
 int main()
 {
