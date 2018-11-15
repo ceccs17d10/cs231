@@ -1,3 +1,10 @@
+/* Roll no 10
+* ANUROSE K THOMAS
+*PRG NO 01
+*Sequential search  
+*/
+ 
+
 #include<stdio.h>
 void main()
 {
