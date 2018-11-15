@@ -1,3 +1,8 @@
+/* Roll no 10
+*ANUROSE K THOMAS
+*Prg NO 11 14.a
+*Singly LL - insert at begin, at end, after a value searched.Singly LL - first, last, search and delete
+*/
 #include<stdio.h>
 #include<stdlib.h>
 struct node
