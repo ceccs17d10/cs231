@@ -1,3 +1,8 @@
+/* Roll no 10
+*ANUROSE K THOMAS
+*Prg NO 27
+*Implementation of dequeue using array
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
