@@ -1,3 +1,8 @@
+/* Roll no 10
+*ANUROSE K THOMAS
+*Prg NO 26
+*Implementation of  queue using array
+*/
 #include<stdio.h>
 #include<stdlib.h>
 void main()
