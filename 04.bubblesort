@@ -1,3 +1,8 @@
+/* Roll no 10
+* ANUROSE K THOMAS
+*PRG NO 04
+*Bubble sort
+*/
 #include<stdio.h>
 void main()
 {
