@@ -1,3 +1,8 @@
+/* Roll no 10
+*ANUROSE K THOMAS
+*Prg NO 22
+*Stack: Infix to postfix conversion
+*/
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
