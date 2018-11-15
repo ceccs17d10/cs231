@@ -15,7 +15,7 @@ struct node
 void main()
 {
     struct node *head,*temp,*tem;
-    int ele,choice;
+    int element,choice;
 
     head=(struct node*)malloc(sizeof(struct node));
     head->data=0;
@@ -31,7 +31,7 @@ void main()
             {
                 temp=(struct node*)malloc(sizeof(struct node));
                 printf("Enter element: ");
-                scanf("%d",&ele);
+                scanf("%d",&element);
                 temp->data=ele;
                 head->link=temp;
                 temp->link=head->link;
@@ -42,7 +42,7 @@ void main()
                 tem=head->link;
                 temp=(struct node*)malloc(sizeof(struct node));
                 printf("Enter element: ");
-                scanf("%d",&ele);
+                scanf("%d",&element);
                 temp->data=ele;
                 while(tem->link!=head->link)
                 {
