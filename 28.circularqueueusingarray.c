@@ -1,3 +1,8 @@
+/* Roll no 10
+*ANUROSE K THOMAS
+*Prg NO 28
+*Implementation of circular queue using array
+*/
 #include<stdio.h>
 #include<string.h>
 
