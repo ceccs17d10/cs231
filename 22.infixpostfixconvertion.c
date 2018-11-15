@@ -13,7 +13,7 @@ struct node
     struct node *link;
 };
 
-int issy(char x)
+int symbol(char x)
 {
     if(x=='+' || x=='-'||x=='*'||x=='/'||x=='('||x==')')
     {
@@ -47,12 +47,12 @@ void main()
     int i;
 
     head_op=(struct node*)malloc(sizeof(struct node));
-    head_op->value=NULL;
+    head_op->value=0;
     head_op->link=NULL;
     top_op=head_op;
 
     head_sy=(struct node*)malloc(sizeof(struct node));
-    head_sy->value=NULL;
+    head_sy->value=0;
     head_sy->link=NULL;
     top_sy=head_sy;
     
@@ -61,7 +61,7 @@ void main()
     scanf("%s",infix);
     for(i=0;i<strlen(infix);i++)
     {
-        if(issy(infix[i])==1)
+        if(symbol(infix[i])==1)
         {
             if(infix[i]==')')
             {
