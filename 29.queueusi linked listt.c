@@ -1,3 +1,8 @@
+/* Roll no 10
+*ANUROSE K THOMAS
+*Prg NO 29
+*Implementation of queue using LL
+*/
 #include<stdio.h>
 #include<stdlib.h>
 struct node
