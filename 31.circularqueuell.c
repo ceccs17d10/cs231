@@ -1,3 +1,8 @@
+/* Roll no 10
+* ANUROSE K THOMAS
+*PRG NO 31
+* Implementation of circular queue using LL
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
