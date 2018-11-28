@@ -1,3 +1,9 @@
+/*AANUROSE KTHOMAS
+ROLL NO 10
+PRG NO 17
+POLYNOMIAL MULTIPLICATION
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node
@@ -129,3 +135,20 @@ void main()
     		}
     		printf("0\n");
 }
+/* OUTPUT
+Polynomial 1 
+Enter coefficient: 3
+Enter exponent: 2
+1. Add elements
+2. Continue
+Enter choice: 2
+polynomial 2 
+Enter coefficient: 4
+Enter exponent: 3
+1. Add elements
+2. Continue
+Enter choice: 2
+F(a) = 3X^2 + 0
+F(b) = 4X^3 + 0
+F(r) = 12X^5 + 0
+*/
