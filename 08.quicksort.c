@@ -1,3 +1,10 @@
+/* ANUROSE K THOMAS
+ROLLNO 10
+PRG no 08
+QUICK SORT RECURSIVE
+*/
+
+
 #include<stdio.h>
 void quicksort(int*arr,int l,int h)
 {
