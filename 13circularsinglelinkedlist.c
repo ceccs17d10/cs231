@@ -1,3 +1,9 @@
+/*ANUROSE K THOMAS
+ROLL NO 10
+PRG no 13
+circular linked list
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -118,4 +124,55 @@ void main()
             printf("%d",temp->data);
         }
     }while(cho==1 || cho==2 || cho==3 || cho==4 || cho==5);
+    
+    
 }
+//*OUTPUT
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:1
+Enter data: 34
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:2
+Enter key: 34
+Enter data: 56
+
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:5
+34 -> 56 -> 34
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display
+6.Exit
+Enter choice:4
+Enter key: 56
+
+Element found...
+MENU
+1.Insertion (end)
+2.Insertion (in b/w)
+3.Deletion
+4.Search
+5.Display*/
+
