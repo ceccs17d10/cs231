@@ -148,4 +148,121 @@ void main()
             		printf("NULL");
         	}
     	}while(c==1 || c==2 || c==3 || c==4 || c==5 || c==6 || c==7 || c==8);
+	/*OUTPUT
+	
+	MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:1
+Enter data: 2
+
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:1
+Enter data: 23
+
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:2
+Enter data: 3
+
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:8
+23 -> 2 -> 3 -> NULL
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:7
+Enter key: 3
+
+Element found at 3
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:2 4
+
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:4 8
+2 -> 3 -> NULL
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:6
+Enter key: 3
+
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:8
+2 -> NULL
+MENU
+1.insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(front)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:^C
 }
