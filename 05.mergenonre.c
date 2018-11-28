@@ -51,4 +51,12 @@ int main()
 		printf("%d",a[i]);
 	return 0;
 }
+/*OUTPUT
+enter the number of elements:4
+enter the elements2
+3
+4
+1
+Sorted list is :
+1234
 
