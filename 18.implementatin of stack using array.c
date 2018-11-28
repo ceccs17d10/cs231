@@ -1,3 +1,9 @@
+/*AANUROSE KTHOMAS
+ROLL NO 10
+PRG NO 18
+IMPLEMENTATION OF STACK USING ARRAY
+*/
+
 #include<stdio.h>
  
 int stack[100],choice,n,top,x,i;
@@ -88,4 +94,40 @@ void display()
     }
     
 }
+/*OUTPUT
+Enter the size of stack:4
+
+	 1.PUSH
+	 2.POP
+	 3.DISPLAY
+	 4.EXIT
+ Enter the Choice:2
+
+	 Stack is under flow
+ Enter the Choice:1
+ Enter a value to be pushed:3
+
+ Enter the Choice:4 1
+ Enter a value to be pushed:4
+
+ Enter the Choice:3
+
+ The elements in stack 
+
+4
+3
+ Press Next Choice
+ Enter the Choice:2
+
+	 The popped elements is 4
+ Enter the Choice:3
+
+ The elements in stack 
+
+3
+ Press Next Choice
+ Enter the Choice:4
+
+	 EXIT POINT
+	 */
  
