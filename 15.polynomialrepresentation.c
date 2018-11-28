@@ -1,3 +1,8 @@
+/* ANUROSE K THOMAS
+ ROLL NO 10
+ PRG NUMBER 15
+ POLYNOMIAL REPRESENTATION
+ */
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -46,3 +51,13 @@ void main()
         printf("0\n");
     }
 }
+/*OUTPUT
+Enter coefficient: 2
+Enter exponent: 3
+1. Add more elements
+2. Continue
+Enter choice: 2
+1. Display polynomial
+2. Exit
+Enter choice: 1
+F(p) = 2 p3 + 0
