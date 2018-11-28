@@ -41,3 +41,13 @@ int main()
     		printf("%d",arr[i]);
  return 0;
 }
+/*OUTPUT
+Enter the size
+4
+Enter the elements
+3
+2
+4
+1
+Sorted array
+1234
