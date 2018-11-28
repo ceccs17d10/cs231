@@ -1,3 +1,9 @@
+/*ANUROSE K THOMAS
+ROLL NO 10
+PRG NO 12, 14 b
+doubly linked list
+
+*/
 #include<stdio.h>
 #include<stdlib.h>
 struct node
@@ -180,3 +186,85 @@ void main()
         	}
     	}while(c==1 || c==2 || c==3 || c==4 || c==5 || c==6 || c==7 || c==8);
 }
+
+/*OUTPUT
+MENU
+1.Insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(begin)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:1
+Enter data: 334 
+
+MENU
+1.Insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(begin)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:2
+Enter data: 45
+
+MENU
+1.Insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(begin)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:8
+33 -> 45 -> NULL
+MENU
+1.Insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(begin)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:3
+Enter key: 33
+Enter data: 46
+
+MENU
+1.Insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(begin)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:8
+33 -> 46 -> 45 -> NULL
+MENU
+1.Insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(begin)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:5
+
+MENU
+1.Insertion(begin)
+2.Insertion(end)
+3.Insertion(after key)
+4.Deletion(begin)
+5.Deletion(end)
+6.Deletion(key)
+7.Search
+8.Display
+Enter choice:9
