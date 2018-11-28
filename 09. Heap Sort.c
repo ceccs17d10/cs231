@@ -1,3 +1,8 @@
+/*ANUROSE KTHOMAS
+ROLL NUMBER 10
+PRG NO 09
+HEAP SORT
+*/
 #include<stdio.h>
 void main()
 {
