@@ -1,3 +1,9 @@
+/* ANUROSE K THOMAS
+ROLL NO 10
+PRG NO 20
+MULTIPLE STACK IMPLEMENTATION
+*/
+
 #include <stdio.h>
 #include<stdlib.h>
 #define SIZE 50
@@ -125,3 +131,86 @@ int main()
   }
   return 0;
 }
+/*
+We can push a total of 50 values
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :1
+
+enter data :23
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :1
+
+enter data :24
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :2
+
+enter data :24
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :2
+
+enter data :45
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :5
+stack 1:
+23 24 
+stack 2:
+24 45 
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :3
+0 is being popped from Stack 1
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :4
+0 is being popped from Stack 2
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :5
+stack 1:
+23 
+stack 2:
+24 
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :6
