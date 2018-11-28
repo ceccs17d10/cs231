@@ -1,3 +1,7 @@
+/* ANUROSE K THOMAS
+ ROLL NO 10
+ PRG NUMBER 16
+ POLYNOMIAL ADDITION
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -151,3 +155,30 @@ void main()
     printf("0\n");
 
 }
+/*OUTPUT
+
+irst Polynomial 
+Enter coefficient: 2
+Enter exponent: 3
+1. Add more elements
+2. Continue
+Enter choice: 4
+
+
+Second polynomial 
+Enter coefficient: 3
+Enter exponent: 5
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 4
+Enter exponent: 3
+1. Add more elements
+2. Continue
+Enter choice: 2
+
+F(r) = F(p) + F(q)
+F(p) = 2 p3 + 0
+F(q) = 3 q5 + 4 q3 + 0
+F(r) = 3 r5 + 6 r3 + 0
+*/
