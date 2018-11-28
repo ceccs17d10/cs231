@@ -1,3 +1,8 @@
+/* ANUROSE K THOMAS
+ROLLNO 10
+PRG no 07
+QUICK SORT NON RECURSIVE
+*/
 #include <stdio.h>
 
 void swap(int *a, int *b) {
