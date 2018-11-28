@@ -1,3 +1,9 @@
+/*ANUROSE KTHOMAS
+ROLL NO 10
+PRG NO 19
+IMPLEMENTATION OF STACK USING LINKED LIST
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -62,3 +68,47 @@ void main()
     }while(cho==1 || cho==2 || cho==3);
     
 }
+/* OUTPUT
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 2
+
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 1
+enter the element: 4
+
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 3
+elements: 4 ->2 ->NULL
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 2
+popped out: 4
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 3
+elements: 2 ->NULL
+MENU
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter Choice: 4
