@@ -31,3 +31,17 @@ void main()
 	else
 		printf("%d is not in the list\n",k);
 }
+
+
+
+/*OUTPUT
+Enter the size4
+Enter elements
+
+2
+3
+4
+5
+Enter number to be searched
+3
+3 is found in the list, at position 2
