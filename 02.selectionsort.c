@@ -31,3 +31,10 @@ int main()
       	printf(" %d",n[i]);
 	return 0;
 }
+/*OUTPUT
+enter the size4
+Enter elements:3
+5
+2
+1
+Sorted elements:  1 2 3 5
