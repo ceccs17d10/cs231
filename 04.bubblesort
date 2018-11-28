@@ -33,4 +33,17 @@ void main()
 		printf("%d\n", a[i]);
 	}
 }
+/*OUTPUT
+enter number of array elements
+4
+enter array elements
+5
+3
+4
+2
+Sorted array:
+2
+3
+4
+5
 
