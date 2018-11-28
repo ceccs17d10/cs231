@@ -33,4 +33,11 @@ void main()
 		}
 
 }
+/*OUTPUT
+nter the size:3
+Enter the elements2
+3
+1
+After Sorting 
+123
 
