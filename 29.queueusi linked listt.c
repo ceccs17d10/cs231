@@ -66,3 +66,50 @@ void main()
         	}
     	}while(c==1 || c==2 || c==3);
 }
+
+/* OUTPUT
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 1
+Enter element: 24
+
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 1
+Enter element: 2
+
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 1
+Enter element: 25
+
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 3
+24 <-2 <-25 <- NULL
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 2
+
+DELETED 24 
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 3
+2 <-25 <- NULL
+Choose
+1.Insertion
+2.Deletion
+3.Display
+ 
