@@ -106,3 +106,6 @@ void main()
     postfix(top_op,head_op);
     printf("%s",post);
 }
+/*OUTPUT
+Enter the infix form: ((2+2)*(2*1))
+22+21**
