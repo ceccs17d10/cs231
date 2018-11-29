@@ -102,3 +102,116 @@ void main()
         }
     }while(choice==1 || choice==2 || choice==3);
 }
+/*OUTPUT
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 12
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 13
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 14
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 3
+12 <-13 <-14 <-12
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 2
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 3
+13 <-14 <-13
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 4
+user@user-HP-Pavilion-g6-Notebook-PC:~$ clear
+
+user@user-HP-Pavilion-g6-Notebook-PC:~$ gcc /home/user/Desktop/31.circularqueuell.c
+user@user-HP-Pavilion-g6-Notebook-PC:~$ ./a.out
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 23
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 1
+Enter element: 24
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 3
+23 <-24 <-23
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 2
+
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 3
+24 <-24
+
+MENU
+1.Insert
+2.Delete
+3.Display
+4.Exit
+Enter Choice: 4
+
