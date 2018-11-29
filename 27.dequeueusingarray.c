@@ -105,3 +105,104 @@ void main()
     }while(choice==1 || choice==2 || choice==3 || choice==4 ||choice==5);
 
 }
+/* OUTPUT
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 3
+Enter the value of element: 23
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 3
+Enter the value of element: 45
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 3
+Enter the value of element: 56
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 5
+23 -> 45 -> 56 -> 
+Front: 1
+End: 3
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 2
+Deleted 23
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 1
+Enter the value of element: 33
+
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 5
+33 -> 45 -> 56 -> 
+Front: 1
+End: 3
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 4
+Deleted 56
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 5
+33 -> 45 -> 
+Front: 1
+End: 2
+MENU
+1.Insertion(Front)
+2.Deletion(Front)
+3.Insertion(End)
+4.Deletion(End)
+5.Display
+6.Exit
+Enter Choice: 6
+
