@@ -1,178 +1,178 @@
-/*ANUROSE K THOMAS
-ROLL NO 10
-PRG no 13
-circular linked list
-*/
+    /*ANUROSE K THOMAS
+    ROLL NO 10
+    PRG no 13
+    circular linked list
+    */
 
-#include<stdio.h>
-#include<stdlib.h>
+    #include<stdio.h>
+    #include<stdlib.h>
 
-struct node
-{
-    int data;
-    struct node *link;
-};
-
-void main()
-{
-    int key,x,cho,flag;
-    struct node *head,*temp,*ptr,*ptr1;
-    head=(struct node*)malloc(sizeof(struct node));
-    head->data=0;
-    head->link=head;
-
-    do
+    struct node
     {
-        ptr=head;
-        printf("\nMENU\n1.Insertion (end)\n2.Insertion (in b/w)\n3.Deletion\n4.Search\n5.Display\n6.Exit\nEnter choice:");
-        scanf("%d",&cho);
-        if(cho==1)
-        {
-            while(ptr->link!=head)
-            {
-                ptr=ptr->link;
-            }
-            temp=(struct node*)malloc(sizeof(struct node));
-            ptr->link=temp;
-            printf("Enter data: ");
-            scanf("%d",&x);
-            temp->data=x;
-            temp->link=head;
-        }
-        else if(cho==2)
-        {
-            printf("Enter key: ");
-            scanf("%d",&key);
-            ptr=ptr->link;
-            while(ptr!=head)
-            {
-                if(ptr->data==key)
-                {
-                    temp=(struct node*)malloc(sizeof(struct node));
-                    ptr1=ptr->link;
-                    ptr->link=temp;
-                    temp->link=ptr1;
-                    printf("Enter data: ");
-                    scanf("%d",&x);
-                    temp->data=x;
+        int data;
+        struct node *link;
+    };
 
-                }
-                ptr=ptr->link;
-            }
-        }
-        else if(cho==3)
+    void main()
+    {
+        int key,x,cho,flag;
+        struct node *head,*temp,*ptr,*ptr1;
+        head=(struct node*)malloc(sizeof(struct node));
+        head->data=0;
+        head->link=head;
+
+        do
         {
-            if(ptr->link==NULL)
+            ptr=head;
+            printf("\nMENU\n1.Insertion (end)\n2.Insertion (in b/w)\n3.Deletion\n4.Search\n5.Display\n6.Exit\nEnter choice:");
+            scanf("%d",&cho);
+            if(cho==1)
             {
-                printf("List is empty!!!");
+                while(ptr->link!=head)
+                {
+                    ptr=ptr->link;
+                }
+                temp=(struct node*)malloc(sizeof(struct node));
+                ptr->link=temp;
+                printf("Enter data: ");
+                scanf("%d",&x);
+                temp->data=x;
+                temp->link=head;
             }
-            else
+            else if(cho==2)
             {
                 printf("Enter key: ");
                 scanf("%d",&key);
-                flag=0;
-                while(ptr->link!=head)
+                ptr=ptr->link;
+                while(ptr!=head)
                 {
-                    ptr1=ptr;
-                    ptr=ptr->link;
                     if(ptr->data==key)
                     {
-                        ptr1->link=ptr->link;
-                        free(ptr);
+                        temp=(struct node*)malloc(sizeof(struct node));
+                        ptr1=ptr->link;
+                        ptr->link=temp;
+                        temp->link=ptr1;
+                        printf("Enter data: ");
+                        scanf("%d",&x);
+                        temp->data=x;
+
+                    }
+                    ptr=ptr->link;
+                }
+            }
+            else if(cho==3)
+            {
+                if(ptr->link==NULL)
+                {
+                    printf("List is empty!!!");
+                }
+                else
+                {
+                    printf("Enter key: ");
+                    scanf("%d",&key);
+                    flag=0;
+                    while(ptr->link!=head)
+                    {
+                        ptr1=ptr;
+                        ptr=ptr->link;
+                        if(ptr->data==key)
+                        {
+                            ptr1->link=ptr->link;
+                            free(ptr);
+                            flag+=1;
+                        }
+                    }
+                    if(flag==0)
+                    {
+                        printf("Key not found!!!");
+                    }
+                }
+            }
+            else if(cho==4)
+            {
+                if(ptr->link==head)
+                {
+                    printf("Empty list!!!");
+                }
+                ptr=ptr->link;
+                flag=0;
+                printf("Enter key: ");
+                scanf("%d",&key);
+                while(ptr!=head)
+                {
+                    if(ptr->data==key)
+                    {
+                        printf("\nElement found...");
                         flag+=1;
                     }
+                    ptr=ptr->link;
                 }
                 if(flag==0)
                 {
-                    printf("Key not found!!!");
+                    printf("\nElement not found...");
                 }
             }
-        }
-        else if(cho==4)
-        {
-            if(ptr->link==head)
+            else if(cho==5)
             {
-                printf("Empty list!!!");
-            }
-            ptr=ptr->link;
-            flag=0;
-            printf("Enter key: ");
-            scanf("%d",&key);
-            while(ptr!=head)
-            {
-                if(ptr->data==key)
+                ptr=ptr->link;
+                while(ptr!=head)
                 {
-                    printf("\nElement found...");
-                    flag+=1;
+                    printf("%d -> ",ptr->data);
+                    ptr=ptr->link;
                 }
-                ptr=ptr->link;
+                temp=ptr->link;
+                printf("%d",temp->data);
             }
-            if(flag==0)
-            {
-                printf("\nElement not found...");
-            }
-        }
-        else if(cho==5)
-        {
-            ptr=ptr->link;
-            while(ptr!=head)
-            {
-                printf("%d -> ",ptr->data);
-                ptr=ptr->link;
-            }
-            temp=ptr->link;
-            printf("%d",temp->data);
-        }
-    }while(cho==1 || cho==2 || cho==3 || cho==4 || cho==5);
-    
-    
-}
-//*OUTPUT
-MENU
-1.Insertion (end)
-2.Insertion (in b/w)
-3.Deletion
-4.Search
-5.Display
-6.Exit
-Enter choice:1
-Enter data: 34
+        }while(cho==1 || cho==2 || cho==3 || cho==4 || cho==5);
 
-MENU
-1.Insertion (end)
-2.Insertion (in b/w)
-3.Deletion
-4.Search
-5.Display
-6.Exit
-Enter choice:2
-Enter key: 34
-Enter data: 56
 
-MENU
-1.Insertion (end)
-2.Insertion (in b/w)
-3.Deletion
-4.Search
-5.Display
-6.Exit
-Enter choice:5
-34 -> 56 -> 34
-MENU
-1.Insertion (end)
-2.Insertion (in b/w)
-3.Deletion
-4.Search
-5.Display
-6.Exit
-Enter choice:4
-Enter key: 56
+    }
+    //*OUTPUT
+    MENU
+    1.Insertion (end)
+    2.Insertion (in b/w)
+    3.Deletion
+    4.Search
+    5.Display
+    6.Exit
+    Enter choice:1
+    Enter data: 34
 
-Element found...
-MENU
-1.Insertion (end)
-2.Insertion (in b/w)
-3.Deletion
-4.Search
-5.Display*/
+    MENU
+    1.Insertion (end)
+    2.Insertion (in b/w)
+    3.Deletion
+    4.Search
+    5.Display
+    6.Exit
+    Enter choice:2
+    Enter key: 34
+    Enter data: 56
+
+    MENU
+    1.Insertion (end)
+    2.Insertion (in b/w)
+    3.Deletion
+    4.Search
+    5.Display
+    6.Exit
+    Enter choice:5
+    34 -> 56 -> 34
+    MENU
+    1.Insertion (end)
+    2.Insertion (in b/w)
+    3.Deletion
+    4.Search
+    5.Display
+    6.Exit
+    Enter choice:4
+    Enter key: 56
+
+    Element found...
+    MENU
+    1.Insertion (end)
+    2.Insertion (in b/w)
+    3.Deletion
+    4.Search
+    5.Display*/
 
