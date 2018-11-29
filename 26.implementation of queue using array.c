@@ -64,3 +64,45 @@ void main()
         	}	 
     	}while(c==1 || c==2 || c==3);
 }
+/* OUTPUT
+choose
+1.Insertion
+2.Deletion
+3.Display
+1
+Enter the value of element: 23
+
+choose
+1.Insertion
+2.Deletion
+3.Display
+1
+Enter the value of element: 34
+
+choose
+1.Insertion
+2.Deletion
+3.Display
+3
+23 -> 34 -> 
+Front: 1
+End: 2
+choose
+1.Insertion
+2.Deletion
+3.Display
+2
+Deleted 23
+choose
+1.Insertion
+2.Deletion
+3.Display
+3
+34 -> 
+Front: 2
+End: 2
+choose
+1.Insertion
+2.Deletion
+3.Display
+
