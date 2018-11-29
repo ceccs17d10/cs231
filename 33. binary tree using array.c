@@ -1,4 +1,8 @@
-33_binary_tree_using_array.c
+/* ANUROSE K THOMAS
+ROLL NO 10
+PROGRAM NO 33
+BINARY TREE USING ARRAY
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
