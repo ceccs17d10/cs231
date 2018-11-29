@@ -1,3 +1,9 @@
+/* Roll no 10
+*ANUROSE K THOMAS
+*Prg NO 24
+*infix evaluation
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
@@ -83,3 +89,6 @@ int main() {
   }
   printf("Final result : %d\n", operandStack[0]);
 }
+/*OUTPUT
+Enter the infix expression : 2+4-3*+
+Final result : -15
