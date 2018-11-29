@@ -1,3 +1,10 @@
+/* ANUROSE K THOMAS
+ROLL NO 10
+PROGRAM NO 32
+BINARY TREE USING LINKED LIST
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
