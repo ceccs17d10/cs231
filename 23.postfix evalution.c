@@ -1,3 +1,8 @@
+/* Roll no 10
+*ANUROSE K THOMAS
+*Prg NO 23
+*postfix evaluation
+*/
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
@@ -47,3 +52,7 @@ int main() {
   }
   printf("%d\n", stack[top]);
 }
+/* OUTPUT
+Enter the postfix expression : 22+33/*
+4
+
